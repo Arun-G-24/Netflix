@@ -1,0 +1,157 @@
+body {
+  background-color: black;
+}
+
+.bg {
+  background-color: black;
+
+}
+
+#logo {
+  position: sticky;
+  top:0;
+  margin: 5px;
+  margin-top: 1px;
+  z-index: 1;
+}
+
+#bg {
+
+
+  height: 100vh;
+  width: 100vw;
+  margin-top: 0px;
+  object-fit: cover;
+  filter: blur(1px);
+
+}
+
+#user {
+  position: sticky;
+  top:0;
+  height: 50px;
+  
+  width: 50px;
+  border-radius: 10px;
+  margin-right: 3px;
+  float: right;
+  margin-top: 15px;
+}
+
+#logout {
+  position: sticky;
+  top:10;
+  height: 30px;
+ 
+  width: 70px;
+  border-radius: 10px;
+  margin-right: 6px;
+  float: right;
+  margin-top: 10px;
+
+
+}
+
+#nav {
+  width: 380px;
+  display: flex;
+  gap: 20px;
+  color: "white";
+  font-size: 16px;
+  font-weight: bolder;
+  justify-content: center;
+  margin-left: 500px;
+  position: sticky;
+  top:0;
+  margin-top: 20px;
+  z-index: 1;
+
+
+
+
+}
+
+
+.movie-row::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-card {
+  min-width: 200px;
+
+  transition: transform 0.3s ease;
+
+  cursor: pointer;
+}
+
+.movie-card:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+.movie-img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.b-1 {
+  position: absolute;
+  right: 40px;
+  top: 160%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 60px;
+  padding: 10px 14px;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.b-1:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.b-2 {
+  position: absolute;
+  right: 40px;
+  top: 240%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 60px;
+  padding: 10px 14px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.b-2:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.b-3 {
+  position: absolute;
+  right: 40px;
+  top: 320%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 60px;
+  padding: 10px 14px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.b-3:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#h{
+  position: sticky;
+  top:0;
+  z-index: 2;
+}
+
